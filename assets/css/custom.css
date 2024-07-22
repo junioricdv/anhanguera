@@ -1,0 +1,186 @@
+.texto-centralizado {
+  text-align: center;
+}
+
+.theme-colors,
+.header-sticky.sticky-bar {
+  background: #ff3d02;
+  background: -moz-linear-gradient(top, #ff3d02 0%, #ec663d 100%);
+  background: -webkit-linear-gradient(top, #ff3d02 0%, #ec663d 100%);
+  background: linear-gradient(to bottom, #ff3d02 0%, #ec663d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c054ff', endColorstr='#5274ff',GradientType=0 );
+}
+
+.custom-botton {
+  align-items: center;
+}
+
+.footer-bg {
+  background: #dc320c;
+}
+
+.btn {
+  background: #f8020e;
+  font-family: "Josefin Sans", sans-serif;
+  align-items: center;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 101%;
+  height: 101%;
+  background: #f54f02;
+  z-index: 1;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+  transition-timing-function: ease;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  transform: scaleX(0);
+  border-radius: 0px;
+}
+
+h4,
+h5,
+h6,
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #050505;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.salario {
+  font-family: "Josefin Sans", sans-serif;
+  color: #050505;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #520404;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #7e2424;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* 
+.slider-area.slider-area2,
+.slider-area2.slider-area2 {
+  background-image: url(../img/hero/hero2.png);
+}
+
+.slider-area1,
+.slider-area3 {
+  background-image: url(../img/hero/h1_hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.slider-area1.slider-area3,
+.slider-area3.slider-area3 {
+  background-image: url(../img/hero/hero3.png);
+}
+.slider-area1 .hero__caption,
+.slider-area3 .hero__caption {
+  overflow: hidden;
+}
+.slider-area1 .hero__caption span,
+.slider-area3 .hero__caption span {
+  color: #31ff7a;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 30px;
+  display: block;
+}
+@media (max-width: 575px) {
+  .slider-area1 .hero__caption span,
+  .slider-area3 .hero__caption span {
+    margin-bottom: 30px;
+    font-size: 56px;
+  }
+}
+.slider-area1 .hero__caption h1,
+.slider-area3 .hero__caption h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-area1 .hero__caption h1,
+  .slider-area3 .hero__caption h1 {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area1 .hero__caption h1,
+  .slider-area3 .hero__caption h1 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area1 .hero__caption h1,
+  .slider-area3 .hero__caption h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .slider-area1 .hero__caption h1,
+  .slider-area3 .hero__caption h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+}
+.slider-area1 .hero__caption p,
+.slider-area3 .hero__caption p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 34px;
+}
+@media (max-width: 575px) {
+  .slider-area1 .hero__caption p,
+  .slider-area3 .hero__caption p {
+    font-size: 16px;
+    padding: 0 0px;
+  }
+}
+.slider-area1 .hero__caption.hero__caption2,
+.slider-area3 .hero__caption.hero__caption2 {
+  padding-top: 218px;
+}
+@media (max-width: 575px) {
+  .slider-area1 .hero__caption.hero__caption2,
+  .slider-area3 .hero__caption.hero__caption2 {
+    padding-top: 184px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area1 .hero__caption.hero__caption2,
+  .slider-area3 .hero__caption.hero__caption2 {
+    padding-top: 184px;
+  }
+} */
