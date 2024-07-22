@@ -75,11 +75,17 @@ h3 {
 
 h4 {
   font-family: "Josefin Sans", sans-serif;
+  text-align: center;
   color: #7e2424;
   margin-top: 0px;
   font-style: normal;
   font-weight: 400;
 }
+
+/* .container {
+  align-items: center;
+  text-align: center;
+} */
 /* 
 .slider-area.slider-area2,
 .slider-area2.slider-area2 {
